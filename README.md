@@ -10,5 +10,5 @@ Estilo Arquitetural: REST
 Recuperação, criação, atualização e delete de atendimentos para um petshop utilizando uma API REST.
 
 ## Data de Inicialização e Finalização
-Data de Inicio: 30/10/2019
+Data de Inicio: 30/10/2019  
 Data de Fim: 30/10/2019
