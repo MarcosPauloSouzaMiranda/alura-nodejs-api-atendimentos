@@ -1,0 +1,32 @@
+{
+  "name": "br.com.api.atendimentos",
+  "version": "1.0.0",
+  "description": "API para geração e consulta de atendimentos",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcosPauloSouzaMiranda/alura-nodejs-api-atendimentos.git"
+  },
+  "keywords": [
+    "API",
+    "Rest",
+    "NodeJs",
+    "Express",
+    "Alura",
+    "Curso"
+  ],
+  "author": "Marcos Paulo Souza Miranda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcosPauloSouzaMiranda/alura-nodejs-api-atendimentos/issues"
+  },
+  "homepage": "https://github.com/MarcosPauloSouzaMiranda/alura-nodejs-api-atendimentos#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4"
+  }
+}
