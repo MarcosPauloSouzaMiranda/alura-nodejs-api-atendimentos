@@ -1,3 +1,5 @@
+const Atendimento = require('../models/atendimentos');
+
 module.exports = app => {
 
     app.get('/atendimentos', (req, res) => {
@@ -8,9 +10,7 @@ module.exports = app => {
 
         var data = req.body;
 
-        console.log(data);
-
-        res.send('Requisição realizada por método POST!');
+        Atendimento.adiciona(data, res);
         
     });
 
